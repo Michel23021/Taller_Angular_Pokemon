@@ -1,0 +1,3 @@
+onlyBuiltDependencies:
+  - esbuild
+  - '@esbuild/linux-x64'

@@ -1,0 +1,26 @@
+:root {
+  --background: #0f1020;
+  --surface: #1b1d3a;
+  --primary: #ef5350;
+  --accent: #ffcb05;
+  --text: #f5f6ff;
+  --muted: #a3a6c9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  background: radial-gradient(circle at top, #23264d 0%, var(--background) 60%);
+  color: var(--text);
+  line-height: 1.5;
+}
